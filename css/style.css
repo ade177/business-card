@@ -1,32 +1,14 @@
-header {
-  background-color: rgb(37, 113, 175);
-  height: 100px;
-}
 body {
-  background-color: #2c2141;
+  background: #2C2141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.main{
+  background: #F8F8F8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
 }
 
-.main {
-  background-color: rgb(#2c2141);
-  display: block;
-}
-.card {
-  background-color: rgb(255, 255, 255);
-  border-radius: 16px;
-  padding: 18px;
-  position: absolute;
-  width: 624px;
-  height: 320px;
-  left: 412px;
-  top: 261px;
-}
-.avatar {
-}
-.name {
-  text-align: center;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 41px;
-}
